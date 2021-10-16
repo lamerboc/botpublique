@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 
-bot = commands.Bot(command_prefix = "!", description = "Robot discord")
+bot = commands.Bot(command_prefix = "!", description = "Robot discord") 
 
 @bot.event()
 async def on_ready()
